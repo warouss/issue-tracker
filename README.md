@@ -1,3 +1,24 @@
+# TUTORIAL FROM [Next.js Projects: Build a Full-stack App with Next.js, Tailwind, Radix UI, and Prisma
+
+](https://www.youtube.com/watch?v=J9sfR6HN6BY)
+
+## Docker (postgresql)
+
+Container name : issue-tracker-db
+Host port : 5432 => 5432
+Volume : D:/VSC_Workspace/issue-tracker/.data => /var/lib/postgresql/data
+Environment variables :
+
+- POSTGRES_DB = issue-tracker
+- POSTGRES_USER = postgres
+- POSTGRES_PASSWORD = passw0rd
+
+Commande :
+
+- docker run -d -p 5432:5432 -v /d/VSC_Workspace/issue-tracker/.data:/var/lib/postgresql/data -e POSTGRES_DB:issue-tracker -e POSTGRES_USER:postgres -e POSTGRES_PASSWORD:passw0rd --name issue-tracker-db postgres:12.19-alpine3.20
+
+## NextJS
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
