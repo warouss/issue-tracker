@@ -1,6 +1,20 @@
-# TUTORIAL FROM [Next.js Projects: Build a Full-stack App with Next.js, Tailwind, Radix UI, and Prisma
+# Issue Tracker is a Next.js Project with Tailwind, Radix UI, and Prisma
 
-](https://www.youtube.com/watch?v=J9sfR6HN6BY)
+[Next.js Projects: Build a Full-stack App with Next.js, Tailwind, Radix UI, and Prisma](https://www.youtube.com/watch?v=J9sfR6HN6BY)
+
+Autres dependencies :
+
+- react-icons
+- classnames
+- prisma
+- @prisma/client
+- zod
+- @radix-ui/themes
+- easymde
+- react-simplemde-editor
+- axios
+- react-hook-form
+- @hookform/resolvers
 
 ## Docker (postgresql)
 
